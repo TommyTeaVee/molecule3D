@@ -1,23 +1,6 @@
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/Thing">
 
-<!--
-This file is part of MolView (http://molview.org)
-Copyright (c) 2014, 2015 Herman Bergwerf
-
-MolView is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-MolView is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with MolView.  If not, see <http://www.gnu.org/licenses/>.
--->
 
 <!--
 Query parameters:
@@ -38,7 +21,7 @@ Query parameters:
 		<meta charset="UTF-8" />
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width, user-scalable=no" />
-		<meta name="author" content="Herman Bergwerf" />
+		<meta name="author" content="3DVISION Animation Studios" />
 		<meta name="theme-color" content="white" />
 		<meta name="mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -76,20 +59,22 @@ Query parameters:
 			}
 		</script>
 
-		<!-- Matomo Analytics -->
-		<script>
-			var _paq = window._paq = window._paq || [];
-			_paq.push(['trackPageView']);
-			_paq.push(['enableLinkTracking']);
-			_paq.push(['enableJSErrorTracking']);
-			(function() {
-				var u="//analytics.molview.org/";
-				_paq.push(['setTrackerUrl', u+'matomo.php']);
-				_paq.push(['setSiteId', '1']);
-				var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-				g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-			})();
-		</script>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.3dvisions.xyz/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
 	</head>
 	<body>
 		<svg width="0" height="0">
