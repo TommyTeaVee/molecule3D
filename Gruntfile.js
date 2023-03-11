@@ -112,7 +112,7 @@ module.exports = function (grunt) {
 			{
 				options:
 				{
-					banner: '/*! MolView JavaScript Base libraries build on <%= grunt.template.today("yyyy-mm-dd") %> */\n',
+					banner: '/*! Atomix JavaScript Base libraries build on <%= grunt.template.today("yyyy-mm-dd") %> */\n',
 					compress: { drop_console: true }
 				},
 				src: JSUnits.base.src,
@@ -122,7 +122,7 @@ module.exports = function (grunt) {
 			{
 				options:
 				{
-					banner: '/*! MolView JavaScript App libraries build on <%= grunt.template.today("yyyy-mm-dd") %> */\n',
+					banner: '/*! Atomix JavaScript App libraries build on <%= grunt.template.today("yyyy-mm-dd") %> */\n',
 					compress: { drop_console: true }
 				},
 				src: JSUnits.applib.src,
@@ -132,7 +132,7 @@ module.exports = function (grunt) {
 			{
 				options:
 				{
-					banner: '/*! MolView JavaScript Datasets build on <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+					banner: '/*! Atomix JavaScript Datasets build on <%= grunt.template.today("yyyy-mm-dd") %> */\n'
 				},
 				src: JSUnits.datasets.src,
 				dest: 'build/molview-datasets.min.js'
@@ -150,7 +150,7 @@ module.exports = function (grunt) {
 			{
 				options:
 				{
-					banner: '/*! MolView JavaScript Sketcher build on <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+					banner: '/*! Atomix JavaScript Sketcher build on <%= grunt.template.today("yyyy-mm-dd") %> */\n'
 				},
 				src: JSUnits.molpad.src,
 				dest: 'build/molview-molpad.min.js'
@@ -159,7 +159,7 @@ module.exports = function (grunt) {
 			{
 				options:
 				{
-					banner: '/*! MolView JavaScript App build on <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+					banner: '/*! Atomix JavaScript App build on <%= grunt.template.today("yyyy-mm-dd") %> */\n'
 				},
 				src: JSUnits.app.src,
 				dest: 'build/molview-app.min.js'
@@ -168,7 +168,7 @@ module.exports = function (grunt) {
 			{
 				options:
 				{
-					banner: '/*! MolView JavaScript Embed build on <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+					banner: '/*! Atomix JavaScript Embed build on <%= grunt.template.today("yyyy-mm-dd") %> */\n'
 				},
 				src: JSUnits.embed.src,
 				dest: 'build/molview-embed.min.js'
